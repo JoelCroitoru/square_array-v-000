@@ -3,5 +3,5 @@ def square_array(array)
   array.each do |index|
     arr << index^2
   end# your code here
-  arr
+  return arr
 end
